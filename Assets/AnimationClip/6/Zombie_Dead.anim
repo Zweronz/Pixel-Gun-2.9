@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Zombie_Dead
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.7071065, y: -0, z: -0, w: 0.7071071}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.8333335
+        value: {x: 0.7071065, y: -0, z: -0, w: 0.7071071}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Enemy11 1/Box001
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0, y: -4.005432E-07, z: -0.5}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.83333325
+        value: {x: -0, y: -4.005432E-07, z: -0.5}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Enemy11 1/Box001
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0.13092679, z: -0.36698645}
+        outSlope: {x: 0, y: 0.13092679, z: -0.36698645}
+        tangentMode: 0
+      - time: 0.06666684
+        value: {x: 1, y: 1.0134549, z: 0.9172094}
+        inSlope: {x: 0, y: 0.31186152, z: -1.9189427}
+        outSlope: {x: 0, y: 0.31186152, z: -1.9189427}
+        tangentMode: 0
+      - time: 0.13333344
+        value: {x: 1, y: 1.0342458, z: 0.7892806}
+        inSlope: {x: 0, y: 0.2018239, z: -1.2418435}
+        outSlope: {x: 0, y: 0.2018239, z: -1.2418435}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: 1, y: 1.024767, z: 0.76492065}
+        inSlope: {x: 0, y: -0.31186432, z: 0.002447071}
+        outSlope: {x: 0, y: -0.31186432, z: 0.002447071}
+        tangentMode: 0
+      - time: 0.3333335
+        value: {x: 1, y: 1, z: 0.765115}
+        inSlope: {x: 0, y: -0.20186593, z: 0.089897}
+        outSlope: {x: 0, y: -0.20186593, z: 0.089897}
+        tangentMode: 0
+      - time: 0.4666667
+        value: {x: 1, y: 0.8808478, z: 0.84003824}
+        inSlope: {x: 0, y: -1.4417647, z: 0.9065831}
+        outSlope: {x: 0, y: -1.4417647, z: 0.9065831}
+        tangentMode: 0
+      - time: 0.63333344
+        value: {x: 1, y: 0.6710012, z: 0.9719901}
+        inSlope: {x: 0, y: -0.52816767, z: 0.33211145}
+        outSlope: {x: 0, y: -0.52816767, z: 0.33211145}
+        tangentMode: 0
+      - time: 0.66666675
+        value: {x: 1, y: 0.66152, z: 0.977952}
+        inSlope: {x: 0, y: -1.1720406, z: 0.123832345}
+        outSlope: {x: 0, y: -1.1720406, z: 0.123832345}
+        tangentMode: 0
+      - time: 0.70000005
+        value: {x: 1, y: 0.5928652, z: 0.9802456}
+        inSlope: {x: 0, y: -3.4848163, z: 0.1164196}
+        outSlope: {x: 0, y: -3.4848163, z: 0.1164196}
+        tangentMode: 0
+      - time: 0.73333335
+        value: {x: 1, y: 0.42919913, z: 0.9857133}
+        inSlope: {x: 0, y: -5.3848147, z: 0.17989594}
+        outSlope: {x: 0, y: -5.3848147, z: 0.17989594}
+        tangentMode: 0
+      - time: 0.76666665
+        value: {x: 1, y: 0.23387791, z: 0.99223864}
+        inSlope: {x: 0, y: -5.3848057, z: 0.17989624}
+        outSlope: {x: 0, y: -5.3848057, z: 0.17989624}
+        tangentMode: 0
+      - time: 0.8000002
+        value: {x: 1, y: 0.070211254, z: 0.9977064}
+        inSlope: {x: 0, y: -3.4847846, z: 0.11641991}
+        outSlope: {x: 0, y: -3.4847846, z: 0.11641991}
+        tangentMode: 0
+      - time: 0.8333335
+        value: {x: 1, y: 0.0015580001, z: 1}
+        inSlope: {x: 0, y: 13.946845, z: 0.034403834}
+        outSlope: {x: -0, y: 29.953289, z: -0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Enemy11 1/Box001
+  m_FloatCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 1
+  m_Bounds:
+    m_Center: {x: 0, y: 0.51854414, z: 0}
+    m_Extent: {x: 0.5, y: 0.51854473, z: 0.5000006}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 0
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []

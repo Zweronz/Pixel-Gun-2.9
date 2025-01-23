@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Walk
+  m_AnimationType: 1
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.50000036, y: 0.49999964, z: 0.50000036, w: -0.49999964}
+        inSlope: {x: -0.20564316, y: -0.20564406, z: 0.2028644, w: -0.2028644}
+        outSlope: {x: -0.20564316, y: -0.20564406, z: 0.2028644, w: -0.2028644}
+        tangentMode: 0
+      - time: 0.06666667
+        value: {x: 0.47643802, y: 0.47643727, z: 0.52250123, w: -0.5225005}
+        inSlope: {x: -0.55953157, y: -0.5595324, z: 0.50699466, w: -0.50699556}
+        outSlope: {x: -0.55953157, y: -0.5595324, z: 0.50699466, w: -0.50699556}
+        tangentMode: 0
+      - time: 0.16666667
+        value: {x: 0.4304597, y: 0.43045887, z: 0.5609859, w: -0.5609853}
+        inSlope: {x: -0.034932233, y: -0.034932233, z: 0.027449757, w: -0.027449757}
+        outSlope: {x: -0.034932233, y: -0.034932233, z: 0.027449757, w: -0.027449757}
+        tangentMode: 0
+      - time: 0.33333334
+        value: {x: 0.50000036, y: 0.49999964, z: 0.50000036, w: -0.49999964}
+        inSlope: {x: 0.45545834, y: 0.4554588, z: -0.4554579, w: 0.4554588}
+        outSlope: {x: 0.45545834, y: 0.4554588, z: -0.4554579, w: 0.4554588}
+        tangentMode: 0
+      - time: 0.53333336
+        value: {x: 0.5550723, y: 0.5550717, z: 0.4380587, w: -0.43805787}
+        inSlope: {x: -0.30635542, y: -0.3063563, z: 0.38075715, w: -0.3807576}
+        outSlope: {x: -0.30635542, y: -0.3063563, z: 0.38075715, w: -0.3807576}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 0.5067623, y: 0.5067616, z: 0.49314567, w: -0.49314496}
+        inSlope: {x: -0.33751032, y: -0.3375112, z: 0.35343233, w: -0.35343322}
+        outSlope: {x: -0.33751032, y: -0.3375112, z: 0.35343233, w: -0.35343322}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -4.7078484E-07, y: 4.7078478E-07, z: -0.7071067, w: 0.7071068}
+        inSlope: {x: -0.048144292, y: -0.0481443, z: 5.3644177E-05, w: -5.5432316E-05}
+        outSlope: {x: -0.048144292, y: -0.0481443, z: 5.3644177E-05, w: -5.5432316E-05}
+        tangentMode: 0
+      - time: 0.23333335
+        value: {x: -0.012216916, y: -0.012215977, z: -0.7070012, w: 0.70700127}
+        inSlope: {x: 0.0870045, y: 0.0870045, z: -0.0014349819, w: 0.0014349819}
+        outSlope: {x: 0.0870045, y: 0.0870045, z: -0.0014349819, w: 0.0014349819}
+        tangentMode: 0
+      - time: 0.5666667
+        value: {x: 0.009995369, y: 0.009996313, z: -0.7070361, w: 0.7070362}
+        inSlope: {x: -0.12585945, y: -0.12585948, z: -0.0017139314, w: 0.0017130374}
+        outSlope: {x: -0.12585945, y: -0.12585948, z: -0.0017139314, w: 0.0017130374}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 0.001604339, y: 0.0016052808, z: -0.7071049, w: 0.707105}
+        inSlope: {x: -0.08145671, y: -0.08145672, z: -0.0003120301, w: 0.00031292418}
+        outSlope: {x: -0.08145671, y: -0.08145672, z: -0.0003120301, w: 0.00031292418}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.7071068, y: -7.061786E-08, z: -0.7071068, w: -7.061786E-08}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 0.7071068, y: -7.061786E-08, z: -0.7071068, w: -7.061786E-08}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 0, y: 0, z: -0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1/Gun1_2
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.2499999, y: 1.3749998, z: -1.2910209E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: -0.2499999, y: 1.3749998, z: -1.2910209E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.2500001, y: 1.3749998, z: -1.2910209E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 0.2500001, y: 1.3749998, z: -1.2910209E-07}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0.015473022, y: 0.02573287, z: -0.3622784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: 0.015473022, y: 0.02573287, z: -0.3622784}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -0.0750143, y: -2.6219282E-09, z: 0.059982732}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333333
+        value: {x: -0.0750143, y: -2.6219282E-09, z: 0.059982732}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1/Gun1_2
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.5874935, y: 1.5875064, z: 1.5875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 1.5874935, y: 1.5875064, z: 1.5875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_left
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.5875, y: -1.5875, z: -1.5875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: -1.5875, y: -1.5875, z: -1.5875}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -1.292268, y: -1.2922679, z: -1.2922679}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: -1.292268, y: -1.2922679, z: -1.2922679}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 0.6333334
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: FPS_PLAYER_Arm_right/Gun1_1/Gun1_2
+  m_FloatCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 2
+  m_Bounds:
+    m_Center: {x: -4.7683716E-07, y: 1.219923, z: 0.34535432}
+    m_Extent: {x: 0.5000014, y: 0.48230076, z: 0.6278568}
+  m_MuscleClipInfo:
+    m_StartTime: 0
+    m_StopTime: 0
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 0
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_Events: []
