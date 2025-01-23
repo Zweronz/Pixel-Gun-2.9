@@ -183,7 +183,7 @@ namespace ULegacyRipper
                 name = ((isArray ? "ARR_" : "") + values[0]).Replace("{", "")
             };
 
-            if (reader.LastIndentationIsLess() || reader.NextLine().StartsWith("- "))
+            if (reader.LastIndentationIsLess())
             {
                 do
                 {
