@@ -19,7 +19,7 @@ namespace ULegacyRipper
             {
                 if (EditorUtility.DisplayDialog("Post Processor", "Exported project has been fully imported. would you like to run the Post Processor? (HIGHLY RECOMMENDED, ports Lightmaps, Shaders, NavMeshes, Meshes, ETC)", "Yes", "No"))
                 {
-                    ULegacyUtils.TryMethod(PostProcess, "Post processing");
+                    PostProcess();
                     EditorUtility.ClearProgressBar();
 
                     AssetDatabase.Refresh();
@@ -33,9 +33,9 @@ namespace ULegacyRipper
         private static void PostProcess()
         {
             //ULegacyUtils.TryMethod(TranslateShaders, "Shader translation");
-            ULegacyUtils.TryMethod(GenerateLightmapData, "Lightmap generation");
-            ULegacyUtils.TryMethod(RebuildNavMeshes, "NavMesh reconstruction");
-            ULegacyUtils.TryMethod(ConvertMeshes, "Mesh conversion");
+            GenerateLightmapData();
+            //ULegacyUtils.TryMethod(RebuildNavMeshes, "NavMesh reconstruction");
+            //ULegacyUtils.TryMethod(ConvertMeshes, "Mesh conversion");
         }
 
         private static void TranslateShaders()
@@ -118,22 +118,6 @@ namespace ULegacyRipper
                 {
                     throw new Exception("Post Processing Cancelled");
                 }
-            }
-        }
-
-        //Debug.Log isn't working outside of runtime??
-        public static void Debug(object message)
-        {
-            if (!File.Exists("Assets/Debug.log"))
-            {
-                File.WriteAllText("Assets/Debug.log", message.ToString());
-            }
-            else
-            {
-                List<string> lines = File.ReadAllLines("Assets/Debug.log").ToList();
-                lines.Add(message.ToString());
-
-                File.WriteAllLines("Assets/Debug.log", lines.ToArray());
             }
         }
 
