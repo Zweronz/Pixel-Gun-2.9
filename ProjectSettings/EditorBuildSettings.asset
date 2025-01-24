@@ -2,36 +2,54 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!1045 &1
 EditorBuildSettings:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
+  serializedVersion: 2
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/AppCenter.unity
+    guid: aabd2d58946b6d74a8f261cb6a20f227
   - enabled: 1
     path: Assets/Loading.unity
+    guid: 72a7af94e4fe12e40864cd4153679efa
   - enabled: 1
     path: Assets/Restart.unity
+    guid: c678450f3eaa8f346a9e396c526e9550
   - enabled: 1
     path: Assets/GameOver.unity
+    guid: 86ac592701512644cb52762b5353e724
   - enabled: 1
-    path: Assets/Sourсe/Scenes/City.unity
+    path: "Assets/Sour\u0441e/Scenes/City.unity"
+    guid: c5698a2248f75c14688e006398e253ea
   - enabled: 1
     path: Assets/LoadingNoWait.unity
+    guid: 85ecf38ca80bfb14e93e9e6e25763048
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Arena.unity
+    path: "Assets/Sour\u0441e/Scenes/Arena.unity"
+    guid: 3b05c1beb3a1c234fa4f72a35b49ffed
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Hospital.unity
+    path: "Assets/Sour\u0441e/Scenes/Hospital.unity"
+    guid: b473f110f7a61e1429211ac39d861539
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Gluk.unity
+    path: "Assets/Sour\u0441e/Scenes/Gluk.unity"
+    guid: 49e3c5a0d55c37845896f90c5c2e04df
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Cementery.unity
+    path: "Assets/Sour\u0441e/Scenes/Cementery.unity"
+    guid: e3253b4d40faa44469f9f2638a1a7e49
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Level_Area51.unity
+    path: "Assets/Sour\u0441e/Scenes/Level_Area51.unity"
+    guid: 76837434b4a95d545bffeba2b46354c4
   - enabled: 1
     path: Assets/SkinManager/Scene/SkinEditor.unity
+    guid: d1d361518e4afaa419a922669302556e
   - enabled: 1
-    path: Assets/Sourсe/Scenes/level_jail_2.unity
+    path: "Assets/Sour\u0441e/Scenes/level_jail_2.unity"
+    guid: 740ceea27efb8664f8172e555703979a
   - enabled: 1
-    path: Assets/Sourсe/Scenes/Maze.unity
+    path: "Assets/Sour\u0441e/Scenes/Maze.unity"
+    guid: f3ee7416b1528f846bc2c34f63893a9c
   - enabled: 1
     path: Assets/SettingScene.unity
+    guid: a7db06ebca4afde4aa2647b36bbb5512
+  - enabled: 1
+    path: "Assets/Sour\u0441e/Scenes/lmtest.unity"
+    guid: f31e3caf1cba1c042824afd1ee0bd1a4
