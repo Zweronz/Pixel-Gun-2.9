@@ -283,7 +283,7 @@ public class Joystick : MonoBehaviour
 			joysticks = ((Joystick[])UnityEngine.Object.FindObjectsOfType(typeof(Joystick))) as Joystick[];
 			enumeratedJoysticks = true;
 		}
-		int touchCount = Input.touchCount;
+		int touchCount = PCInput.touchCount;
 		if (!(tapTimeWindow <= 0f))
 		{
 			tapTimeWindow -= Time.deltaTime;
@@ -300,7 +300,7 @@ public class Joystick : MonoBehaviour
 		{
 			for (int i = 0; i < touchCount; i++)
 			{
-				Touch touch = Input.GetTouch(i);
+				Touch touch = PCInput.GetTouch(i);
 				Vector2 vector = touch.position - guiTouchOffset;
 				bool flag = false;
 				if (touchPad)

@@ -136,10 +136,10 @@ public class tapcontrol : MonoBehaviour
 
 	public virtual void CharacterControl()
 	{
-		int touchCount = Input.touchCount;
+		int touchCount = PCInput.touchCount;
 		if (touchCount == 1 && state == ControlState.MovingCharacter)
 		{
-			Touch touch = Input.GetTouch(0);
+			Touch touch = PCInput.GetTouch(0);
 			if (character.isGrounded && jumpButton.HitTest(touch.position))
 			{
 				velocity = character.velocity;
@@ -201,7 +201,7 @@ public class tapcontrol : MonoBehaviour
 
 	public virtual void Update()
 	{
-		int touchCount = Input.touchCount;
+		int touchCount = PCInput.touchCount;
 		if (touchCount == 0)
 		{
 			ResetControlState();
@@ -210,7 +210,7 @@ public class tapcontrol : MonoBehaviour
 		{
 			int num = default(int);
 			Touch touch = default(Touch);
-			Touch[] touches = Input.touches;
+			Touch[] touches = PCInput.touches;
 			Touch touch2 = default(Touch);
 			Touch touch3 = default(Touch);
 			bool flag = false;

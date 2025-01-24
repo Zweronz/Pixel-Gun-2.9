@@ -181,7 +181,7 @@ public class Redactor : MonoBehaviour
 		{
 			touchEnabled = false;
 		}
-		if (showEnabled && !touchEnabled && Input.touchCount == 0)
+		if (showEnabled && !touchEnabled && PCInput.touchCount == 0)
 		{
 			touchEnabled = true;
 		}
@@ -189,9 +189,9 @@ public class Redactor : MonoBehaviour
 		{
 			return;
 		}
-		if (Input.touchCount > 0)
+		if (PCInput.touchCount > 0)
 		{
-			Vector2 point = new Vector2(Input.touches[0].position.x, Input.touches[0].position.y);
+			Vector2 point = new Vector2(PCInput.touches[0].position.x, PCInput.touches[0].position.y);
 			if (rectTexture.Contains(point))
 			{
 				int num = (int)((float)redactTexture.width * (point.x - rectTexture.x) / rectTexture.width);
@@ -240,7 +240,7 @@ public class Redactor : MonoBehaviour
 				}
 				saveToHistory = true;
 			}
-			if (Input.touches[0].phase == TouchPhase.Ended && saveToHistory)
+			if (PCInput.touches[0].phase == TouchPhase.Ended && saveToHistory)
 			{
 				ViborChastiTela.skinIzm = true;
 				ViborStoroniForRedact.izmTexture = true;

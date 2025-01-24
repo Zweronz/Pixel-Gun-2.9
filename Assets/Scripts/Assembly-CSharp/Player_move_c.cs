@@ -479,7 +479,7 @@ public class Player_move_c : MonoBehaviour
 		if (!_pauser.paused && canReceiveSwipes && !isInappWinOpen)
 		{
 			Rect rect = new Rect((float)Screen.width - 264f * (float)Screen.width / 1024f, (float)Screen.height - 94f * (float)Screen.width / 1024f - 95f * (float)Screen.width / 1024f, 264f * (float)Screen.width / 1024f, 95f * (float)Screen.width / 1024f);
-			Touch[] touches = Input.touches;
+			Touch[] touches = PCInput.touches;
 			for (int i = 0; i < touches.Length; i++)
 			{
 				Touch touch = touches[i];

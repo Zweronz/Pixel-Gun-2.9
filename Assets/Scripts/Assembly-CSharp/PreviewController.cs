@@ -224,7 +224,7 @@ public class PreviewController : MonoBehaviour
 		float num = 25f;
 		float num2 = 35f;
 		Rect rect = new Rect(num, num2, (float)Screen.width - num * 2f, (float)Screen.height - num2 * 2f);
-		Touch[] touches = Input.touches;
+		Touch[] touches = PCInput.touches;
 		for (int i = 0; i < touches.Length; i++)
 		{
 			Touch touch = touches[i];

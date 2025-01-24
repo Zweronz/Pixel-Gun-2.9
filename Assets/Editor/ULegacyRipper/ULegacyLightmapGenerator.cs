@@ -51,13 +51,14 @@ namespace ULegacyRipper
 
 				string originalPath = AssetDatabase.GUIDToAssetPath(lightmapNode.table["guid"]);
 
-				Texture2D texture = new Texture2D(1, 1, TextureFormat.DXT5, false);
+				Texture2D texture = new Texture2D(1, 1, TextureFormat.DXT1, false);
 				texture.LoadImage(File.ReadAllBytes(originalPath));
 
 				string newPath = AssetDatabase.GUIDToAssetPath(lightmapNode.table["guid"]).Replace(".png", ".asset");
 				AssetDatabase.CreateAsset(texture, newPath);
 
 				File.Delete(originalPath);
+				File.WriteAllText(newPath, File.ReadAllText(newPath).Replace("m_LightmapFormat: 0", "m_LightmapFormat: 1"));
 
 				newLightmapNode.table.Add("fileID","2800000");
 				newLightmapNode.table.Add("type", "2");

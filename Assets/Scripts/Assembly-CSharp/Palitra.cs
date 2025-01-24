@@ -57,9 +57,9 @@ public class Palitra : MonoBehaviour
 
 	private void Update()
 	{
-		if (showEnabled && Input.touchCount > 0)
+		if (showEnabled && PCInput.touchCount > 0)
 		{
-			Vector2 vector = new Vector2(Input.touches[0].position.x, Input.touches[0].position.y);
+			Vector2 vector = new Vector2(PCInput.touches[0].position.x, PCInput.touches[0].position.y);
 			if (rectPalitra.Contains(new Vector2(vector.x, (float)Screen.height - vector.y)))
 			{
 				int x = (int)((float)palitra.width * (vector.x - rectPalitra.x) / rectPalitra.width);

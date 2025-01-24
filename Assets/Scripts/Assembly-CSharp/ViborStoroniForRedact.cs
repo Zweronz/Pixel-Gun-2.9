@@ -75,7 +75,7 @@ public class ViborStoroniForRedact : MonoBehaviour
 			{
 				touchEnabled = false;
 			}
-			if (showEnabled && !touchEnabled && Input.touchCount == 0)
+			if (showEnabled && !touchEnabled && PCInput.touchCount == 0)
 			{
 				touchEnabled = true;
 			}

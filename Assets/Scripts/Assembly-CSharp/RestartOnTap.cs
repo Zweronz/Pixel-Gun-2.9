@@ -8,7 +8,7 @@ public class RestartOnTap : MonoBehaviour
 
 	private void Update()
 	{
-		if (Input.touchCount > 0)
+		if (PCInput.touchCount > 0)
 		{
 			Application.LoadLevel("Level2");
 		}
