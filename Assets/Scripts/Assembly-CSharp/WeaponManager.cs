@@ -65,7 +65,7 @@ public class WeaponManager : MonoBehaviour
 
 	private Object[] GetWeaponPrefabs()
 	{
-		return Resources.LoadAll("Weapons");
+		return Resources.LoadAll<GameObject>("Weapons");
 	}
 
 	public void Reset()
